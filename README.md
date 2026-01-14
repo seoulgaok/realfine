@@ -3,20 +3,19 @@
 > 🏠 **Priority over Ownership** - A revolutionary approach to housing access in Seoul
 
 [![Mantle Sepolia](https://img.shields.io/badge/Network-Mantle%20Sepolia-blue)](https://sepolia.mantlescan.xyz)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Overview
 
-RealFiNE is an on-chain housing vault protocol that tokenizes Seoul's neighborhood-based housing subscription system (청약). Instead of competing in lotteries with uncertain outcomes, users deposit stablecoins into dong-specific vaults, earn points over time, and gain priority access to housing projects.
+RealFiNE is an on-chain housing vault protocol that tokenizes Seoul's neighborhood-based housing subscription system (청약). Instead of competing in lotteries with uncertain outcomes, users deposit stablecoins into dong-specific vaults, receive rent subsidies from DeFi yields, and gain priority access to housing projects.
 
 ### Key Innovation: Regional Vault System
 
 Seoul has **426 administrative dongs** (neighborhoods). Each dong gets its own dedicated vault:
 
-- **1 Dong = 1 Vault = 1 vToken**
+- **1 Dong = 1 Vault = 1 Home Credit**
 - Deposits are stablecoin (USDT0) based
-- Points accrue: `Amount × (Days/365) × 1.2`
-- vTokens serve as DAO governance tokens
+- 6% annual rent subsidy from DeFi yields
+- Home Credits serve as DAO governance tokens
 
 ## How It Works
 
@@ -24,20 +23,19 @@ Seoul has **426 administrative dongs** (neighborhoods). Each dong gets its own d
 ┌─────────────────────────────────────────────────────────────┐
 │                    RealFiNE Protocol                        │
 ├─────────────────────────────────────────────────────────────┤
-│  User deposits USDT0 → Receives vToken 1:1                  │
-│  Points accrue over time → Higher housing priority          │
-│  vToken = Voting power for DAO governance                   │
-│  Optional: 1-year lockup for +10% bonus points              │
+│  User deposits USDT0 → Receives Home Credit 1:1             │
+│  While waiting: 6% annual rent subsidy (월세 보조금)          │
+│  Points accumulate: Deposit × Time                          │
+│  When building completed: Points decide 청약 order           │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### Triple Benefit Model
+### Double Benefit Model
 
 | Benefit | Description |
 |---------|-------------|
-| 🏦 **DeFi Yield** | 6.5% APY from diversified yield strategies |
-| 📈 **Points Boost** | Accelerated points accumulation |
-| 🏠 **Housing Priority** | Priority access to neighborhood housing projects |
+| 🏦 **Rent Subsidy** | 6% annual rent subsidy (월세 보조금) while waiting |
+| 🏠 **Housing Priority** | Points decide 청약 order when building is completed |
 
 ### Yield Model: Rent Subsidy from DeFi
 
@@ -125,7 +123,7 @@ realfine-protocol/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/realfine-protocol.git
+git clone https://github.com/seoulgaok/realfine.git
 cd realfine-protocol
 
 # Install CLI dependencies
@@ -182,29 +180,28 @@ pnpm realfi mint-test-tokens --to 0x... --amount 1000
 pnpm realfi status                    # Show all info
 ```
 
-## Points System
+## Points System (청약 Priority)
+
+When the building is completed, points determine the order of 청약 (housing subscription).
 
 ```
-Points = Deposit Amount × (Days Held / 365) × Multiplier
-
-Multiplier:
-- Standard: 1.0
-- 1-Year Lockup: 1.1 (+10% bonus)
+Points = Deposit Amount × (Days Held / 365)
 ```
 
 ### Example
-- Deposit: 10,000 USDT0
-- Duration: 180 days
-- Lockup: Yes (1.1x)
-- Points: 10,000 × (180/365) × 1.1 = **5,424 points**
+- Deposit: 100,000,000 KRW (1억)
+- Duration: 365 days (1 year)
+- Points: 100,000,000 × 1 = **100,000,000 points**
+
+Higher points = Earlier unit selection when building is done.
 
 ## Governance
 
-Each vToken equals one vote in the DAO:
+Each Home Credit equals one vote in the DAO:
 
-- **Proposal Creation**: Minimum 1,000 vTokens
+- **Proposal Creation**: Minimum 1,000 Home Credits
 - **Voting Period**: 7 days
-- **Quorum**: 10% of total vToken supply
+- **Quorum**: 10% of total Home Credit supply
 - **Execution**: 48-hour timelock
 
 ## Security
@@ -228,8 +225,8 @@ Each vToken equals one vote in the DAO:
 - [x] Phase 1: Core contracts & factory system
 - [x] Phase 2: Frontend MVP with wallet integration
 - [x] Phase 3: KYC flow implementation
-- [ ] Phase 4: Cross-vault bridge
-- [ ] Phase 5: Points marketplace
+- [ ] Phase 4: mETH yield integration
+- [ ] Phase 5: Cross-vault bridge
 - [ ] Phase 6: DAO governance launch
 
 ## Network Configuration
@@ -253,10 +250,6 @@ Each vToken equals one vote in the DAO:
 ## Team
 
 Built for Mantle Hackathon 2026
-
-## License
-
-MIT License - see [LICENSE](LICENSE)
 
 ---
 
