@@ -1,0 +1,171 @@
+{
+  "realfi": {
+    "mainPage": {
+      "title": "청약통장의 온체인화 | RealFiNE",
+      "description": "내가 살고 싶은 동네에 직접 예치하고, Points를 쌓아 주거 우선권을 획득하세요."
+    },
+    "nav": {
+      "home": "RealFiNE",
+      "dongVault": "위치기반 Vault",
+      "bridge": "Bridge",
+      "swap": "Swap",
+      "portfolio": "내 포트폴리오",
+      "kyc": "KYC 인증"
+    },
+    "common": {
+      "deposit": "예치",
+      "withdraw": "출금",
+      "available": "가용",
+      "participants": "참여자",
+      "tvl": "TVL",
+      "points": "Points",
+      "vToken": "Home credit",
+      "vault": "Vault",
+      "connectWallet": "지갑을 연결하세요",
+      "processing": "처리중...",
+      "confirm": "확인",
+      "cancel": "취소",
+      "projects": "프로젝트",
+      "activeProjects": "진행 중인 프로젝트",
+      "comingSoon": "오픈 예정",
+      "vaultOpen": "Vault 오픈",
+      "vaultClosed": "Vault 대기중",
+      "goal": "목표",
+      "viewVault": "Vault 보기",
+      "all": "전체",
+      "list": "리스트",
+      "map": "지도"
+    },
+    "landing": {
+      "title": "RealFiNE",
+      "badge": "Beta",
+      "subtitle": "청약통장의 온체인화",
+      "about": {
+        "label": "about.Real-Fi Network Estate",
+        "heading": "우량 주택을 유동적인 디지털 자산으로 전환하여 거주자에게 탁월한 자산 형성 경험을 제공합니다.",
+        "description": "RealFi를 통해 RWA 혁명을 주도하며, 블록체인 기술을 활용하여 주택 소유의 패러다임을 재정의합니다."
+      },
+      "stats": {
+        "tvl": "총 예치금",
+        "participants": "참여자",
+        "participantsSuffix": "명",
+        "vaults": "활성 Vault",
+        "vaultsSuffix": "개 동",
+        "projects": "진행중 프로젝트",
+        "projectsSuffix": "개 프로젝트"
+      },
+      "services": {
+        "service1Title": "위치기반 Vault 운영",
+        "service1Desc": "서울의 426개 행정동(洞)마다 독립적인 Vault 운영.",
+        "service2Title": "Points 적립 시스템",
+        "service2Desc": "예치액 × 기간으로 Points 적립.",
+        "service3Title": "Home credit 유동성",
+        "service3Desc": "Home credit을 담보로 대출(LTV 70%)받아 Points 유지.",
+        "service4Title": "DAO 거버넌스",
+        "service4Desc": "Home credit 보유자는 프로젝트의 모든 의사결정에 참여."
+      },
+      "realfineSection": {
+        "title": "Real, FiNE!",
+        "descriptionLeft": "본 서비스는 금융권 수준의 보안과 모바일 최적화를 바탕으로 신속하고 안전한 글로벌 자산 관리 환경을 제공합니다.",
+        "descriptionRight": "규제를 준수하는 투명한 운영을 통해 서비스의 신뢰도를 높였습니다."
+      },
+      "features": {
+        "feature1Title": "Fast Transactions",
+        "feature1Desc": "즉각적인 거래 처리",
+        "feature2Title": "Bank-Level Security",
+        "feature2Desc": "금융권 수준의 보안",
+        "feature3Title": "Portfolio Management",
+        "feature3Desc": "통합 자산 관리",
+        "feature4Title": "Mobile First",
+        "feature4Desc": "모바일 최적화 경험",
+        "feature5Title": "Global Access",
+        "feature5Desc": "글로벌 시장 접근성"
+      },
+      "trustStrip": {
+        "notInvestment": "투자상품 아님",
+        "serviceVoucher": "서비스 이용권",
+        "actualResidence": "실거주 전제",
+        "regulationFriendly": "규제 친화적"
+      },
+      "cta": {
+        "subtitle": "부동산의 새로운 가능성을 경험하세요"
+      }
+    },
+    "wallet": {
+      "connect": "지갑 연결",
+      "connecting": "연결중...",
+      "connected": "연결됨",
+      "disconnect": "연결 해제",
+      "balance": "잔액",
+      "network": "네트워크",
+      "wrongNetwork": "잘못된 네트워크",
+      "switchNetwork": "네트워크 변경",
+      "faucet": "테스트 토큰 받기",
+      "selectWallet": "지갑 선택",
+      "copyAddress": "주소 복사",
+      "viewOnExplorer": "Explorer에서 보기",
+      "mntGas": "MNT (가스비)",
+      "getUsdt0": "USDT0 받기 (1,000 USDT0)"
+    },
+    "explorer": {
+      "vaultComingSoon": "Vault 오픈 예정",
+      "searchPlaceholder": "동 이름으로 검색...",
+      "all": "전체",
+      "activeProjectsTitle": "진행 중인 프로젝트",
+      "activeProjectsSubtitle": "예치하고 Points를 쌓아 주거 우선권을 획득하세요",
+      "showingDongs": "{count}개 동 표시 중",
+      "noResults": "검색 결과가 없습니다",
+      "tryDifferentSearch": "다른 검색어나 필터를 시도해보세요",
+      "comingSoonTitle": "더 많은 동 Vault 오픈 예정",
+      "comingSoonDesc": "서울시 {guCount}개 구, {dongCount}개 동 지원 예정",
+      "participants": "참여자",
+      "participantCount": "{count}명",
+      "activeProjects": "진행 프로젝트",
+      "projectCount": "{count}개",
+      "goalTvl": "목표 TVL: 1,000,000 USDT0"
+    },
+    "vaultDetail": {
+      "participants": "참여자",
+      "participantCount": "{count}명",
+      "deposit": "예치",
+      "withdraw": "출금",
+      "connectWallet": "지갑을 연결하세요",
+      "depositAmount": "예치 금액 (USDT0)",
+      "balance": "보유량",
+      "yearLockup": "1년 락업",
+      "lockupNote": "1년간 출금 불가",
+      "depositToVault": "{dong} Vault에 예치",
+      "withdrawAmount": "출금 금액 (Home credit)",
+      "withdrawBtn": "출금하기",
+      "myStatus": "내 상태",
+      "deposited": "예치금",
+      "votingPower": "Home credit (투표권)",
+      "rank": "순위"
+    },
+    "kyc": {
+      "title": "KYC 인증",
+      "subtitle": "RealFiNE 참여를 위한 본인 인증을 완료하세요",
+      "step1": "멤버십 인증",
+      "step2": "기본 정보",
+      "step3": "신분증 업로드",
+      "step4": "셀피",
+      "status": {
+        "notStarted": "미시작",
+        "inProgress": "진행 중",
+        "pendingReview": "검토 대기",
+        "approved": "승인됨",
+        "rejected": "거부됨"
+      }
+    },
+    "portfolio": {
+      "title": "내 포트폴리오",
+      "subtitle": "전체 Vault에서의 예치금과 Points를 확인하세요",
+      "summary": {
+        "totalDeposit": "총 예치금",
+        "totalVToken": "총 Home credit",
+        "totalPoints": "총 Points",
+        "dailyEarning": "일일 적립률"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "network": "sepolia",
+  "USDT0": "0xa45d94eb6752b5b465e62f128c8d10771b7fde0a",
+  "KYCRegistry": "0x364ac44b504458303c3a9b8faff6ef806590000c",
+  "DongVaultFactory": "0x40f304876e71867bc54324256eea9f125ff958b4",
+  "dongVaults": {
+    "오금동": {
+      "vaultAddress": "0x7488f44BF19A3cbCa70cd4117f05F46D127aF93A",
+      "vTokenAddress": "0xf846e3ffc2eff1adaf17dcd68579db9fb9ac4a9c"
+    },
+    "구의동": {
+      "vaultAddress": "0xBe5Ba8e03DE4193e1C35Ed31aA3d58253d2FF324",
+      "vTokenAddress": "0x038930a980b091c2ca133a6b995ab026f7ab90d8"
+    },
+    "청파동2가": {
+      "vaultAddress": "0x3781Fdfc52032D9771FAcb18c7E4e17E44bAC355",
+      "vTokenAddress": "0xf743f0c71c3c5c86d53c8dad1d7b333c2b2bea65"
+    },
+    "묵정동": {
+      "vaultAddress": "0x5D5087dc2b75d743F128E4F41979b5B68B27A06A",
+      "vTokenAddress": "0x80b1f60c77c57c7588748700f1d761bc449a3694"
+    }
+  },
+  "deployedAt": "2026-01-03T22:47:34.074Z"
+}

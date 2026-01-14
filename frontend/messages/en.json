@@ -1,0 +1,171 @@
+{
+  "realfi": {
+    "mainPage": {
+      "title": "On-chain Housing Vault | RealFiNE",
+      "description": "Deposit in your preferred neighborhood and earn Points to gain housing priority. A decentralized housing platform based on Location-based Vaults."
+    },
+    "nav": {
+      "home": "RealFiNE",
+      "dongVault": "Location-based Vaults",
+      "bridge": "Bridge",
+      "swap": "Swap",
+      "portfolio": "My Portfolio",
+      "kyc": "KYC Verification"
+    },
+    "common": {
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "available": "Available",
+      "participants": "Participants",
+      "tvl": "TVL",
+      "points": "Points",
+      "vToken": "Home credit",
+      "vault": "Vault",
+      "connectWallet": "Connect Wallet",
+      "processing": "Processing...",
+      "confirm": "Confirm",
+      "cancel": "Cancel",
+      "projects": "Projects",
+      "activeProjects": "Active Projects",
+      "comingSoon": "Coming Soon",
+      "vaultOpen": "Vault Open",
+      "vaultClosed": "Vault Closed",
+      "goal": "Goal",
+      "viewVault": "View Vault",
+      "all": "All",
+      "list": "List",
+      "map": "Map"
+    },
+    "landing": {
+      "title": "RealFiNE",
+      "badge": "Beta",
+      "subtitle": "On-chain Housing Vault",
+      "about": {
+        "label": "about.Real-Fi Network Estate",
+        "heading": "By turning prime housing into liquid digital assets, we empower residents with extraordinary wealth-building experiences.",
+        "description": "Driving the RWA revolution through RealFi, we leverage blockchain technology to redefine the paradigm of homeownership."
+      },
+      "stats": {
+        "tvl": "Total Value Locked",
+        "participants": "Active Participants",
+        "participantsSuffix": "",
+        "vaults": "Active Vaults",
+        "vaultsSuffix": " dongs",
+        "projects": "Ongoing Projects",
+        "projectsSuffix": " projects"
+      },
+      "services": {
+        "service1Title": "Location-based Vault",
+        "service1Desc": "Independent Vaults for each of Seoul's 426 administrative districts (DONG).",
+        "service2Title": "Points Earning System",
+        "service2Desc": "Earn Points based on deposit amount × duration.",
+        "service3Title": "Home credit Liquidity",
+        "service3Desc": "Borrow against Home credit (70% LTV) while maintaining Points.",
+        "service4Title": "DAO Governance",
+        "service4Desc": "Home credit holders participate in all project decisions."
+      },
+      "realfineSection": {
+        "title": "Real, FiNE!",
+        "descriptionLeft": "This service provides a fast and secure global asset management environment based on bank-level security and mobile optimization.",
+        "descriptionRight": "We uphold high reliability through transparent, regulation-friendly operations."
+      },
+      "features": {
+        "feature1Title": "Fast Transactions",
+        "feature1Desc": "Instant transaction processing",
+        "feature2Title": "Bank-Level Security",
+        "feature2Desc": "Financial-grade security",
+        "feature3Title": "Portfolio Management",
+        "feature3Desc": "Integrated asset management",
+        "feature4Title": "Mobile First",
+        "feature4Desc": "Mobile-optimized experience",
+        "feature5Title": "Global Access",
+        "feature5Desc": "Global market accessibility"
+      },
+      "trustStrip": {
+        "notInvestment": "Not an Investment Product",
+        "serviceVoucher": "Service Voucher",
+        "actualResidence": "Actual Residence Required",
+        "regulationFriendly": "Regulation Friendly"
+      },
+      "cta": {
+        "subtitle": "Experience the new possibilities of real estate"
+      }
+    },
+    "wallet": {
+      "connect": "Connect Wallet",
+      "connecting": "Connecting...",
+      "connected": "Connected",
+      "disconnect": "Disconnect",
+      "balance": "Balance",
+      "network": "Network",
+      "wrongNetwork": "Wrong Network",
+      "switchNetwork": "Switch Network",
+      "faucet": "Get Test Tokens",
+      "selectWallet": "Select Wallet",
+      "copyAddress": "Copy Address",
+      "viewOnExplorer": "View on Explorer",
+      "mntGas": "MNT (Gas)",
+      "getUsdt0": "Get USDT0 (1,000 USDT0)"
+    },
+    "explorer": {
+      "vaultComingSoon": "Vault Coming Soon",
+      "searchPlaceholder": "Search by dong name...",
+      "all": "All",
+      "activeProjectsTitle": "Active Projects",
+      "activeProjectsSubtitle": "Deposit and earn Points to get housing priority",
+      "showingDongs": "{count} dongs shown",
+      "noResults": "No results found",
+      "tryDifferentSearch": "Try a different search term or filter",
+      "comingSoonTitle": "More Location-based Vaults Coming Soon",
+      "comingSoonDesc": "Supporting {guCount} districts, {dongCount} dongs in Seoul",
+      "participants": "Participants",
+      "participantCount": "{count}",
+      "activeProjects": "Active Projects",
+      "projectCount": "{count}",
+      "goalTvl": "Goal TVL: 1,000,000 USDT0"
+    },
+    "vaultDetail": {
+      "participants": "Participants",
+      "participantCount": "{count} participants",
+      "deposit": "Deposit",
+      "withdraw": "Withdraw",
+      "connectWallet": "Please connect your wallet",
+      "depositAmount": "Deposit Amount (USDT0)",
+      "balance": "Balance",
+      "yearLockup": "1 Year Lockup",
+      "lockupNote": "Cannot withdraw for 1 year",
+      "depositToVault": "Deposit to {dong} Vault",
+      "withdrawAmount": "Withdraw Amount (Home credit)",
+      "withdrawBtn": "Withdraw",
+      "myStatus": "My Status",
+      "deposited": "Deposited",
+      "votingPower": "Home credit (Voting Power)",
+      "rank": "Rank"
+    },
+    "kyc": {
+      "title": "KYC Verification",
+      "subtitle": "Complete identity verification to participate in RealFiNE",
+      "step1": "Membership Verification",
+      "step2": "Basic Info",
+      "step3": "ID Upload",
+      "step4": "Selfie",
+      "status": {
+        "notStarted": "Not Started",
+        "inProgress": "In Progress",
+        "pendingReview": "Pending Review",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      }
+    },
+    "portfolio": {
+      "title": "My Portfolio",
+      "subtitle": "View your deposits and Points across all vaults",
+      "summary": {
+        "totalDeposit": "Total Deposit",
+        "totalVToken": "Total Home credit",
+        "totalPoints": "Total Points",
+        "dailyEarning": "Daily Earning Rate"
+      }
+    }
+  }
+}
