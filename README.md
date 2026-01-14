@@ -13,7 +13,6 @@ RealFiNE is an on-chain housing vault protocol that tokenizes Seoul's neighborho
 
 Seoul has **426 administrative dongs** (neighborhoods). Each dong gets its own dedicated vault:
 
-- **1 Dong = 1 Vault = 1 Home Credit**
 - Deposits are stablecoin (USDT0) based
 - 6% annual rent subsidy from DeFi yields
 - Home Credits serve as DAO governance tokens
