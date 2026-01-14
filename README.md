@@ -7,7 +7,7 @@
 
 ## Overview
 
-RealFiNE is an on-chain housing vault protocol that tokenizes Seoul's neighborhood-based housing subscription system (청약). Instead of competing in lotteries with uncertain outcomes, users deposit stablecoins into dong-specific vaults, receive rent subsidies from DeFi yields, and gain priority access to housing projects.
+RealFiNE is an on-chain housing vault protocol that tokenizes Seoul's neighborhood-based housing subscription system. Instead of competing in lotteries with uncertain outcomes, users deposit stablecoins into dong-specific vaults, receive rent subsidies from DeFi yields, and gain priority access to housing projects.
 
 ### Key Innovation: Regional Vault System
 
@@ -24,9 +24,9 @@ Seoul has **426 administrative dongs** (neighborhoods). Each dong gets its own d
 │                    RealFiNE Protocol                        │
 ├─────────────────────────────────────────────────────────────┤
 │  User deposits USDT0 → Receives Home Credit 1:1             │
-│  While waiting: 6% annual rent subsidy (월세 보조금)          │
+│  While waiting: 6% annual rent subsidy                      │
 │  Points accumulate: Deposit × Time                          │
-│  When building completed: Points decide 청약 order           │
+│  When building completed: Points decide housing priority    │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -34,8 +34,8 @@ Seoul has **426 administrative dongs** (neighborhoods). Each dong gets its own d
 
 | Benefit | Description |
 |---------|-------------|
-| 🏦 **Rent Subsidy** | 6% annual rent subsidy (월세 보조금) while waiting |
-| 🏠 **Housing Priority** | Points decide 청약 order when building is completed |
+| 🏦 **Rent Subsidy** | 6% annual rent subsidy while waiting |
+| 🏠 **Housing Priority** | Points decide unit selection order when building is completed |
 
 ### Yield Model: Rent Subsidy from DeFi
 
@@ -180,18 +180,18 @@ pnpm realfi mint-test-tokens --to 0x... --amount 1000
 pnpm realfi status                    # Show all info
 ```
 
-## Points System (청약 Priority)
+## Points System (Housing Priority)
 
-When the building is completed, points determine the order of 청약 (housing subscription).
+When the building is completed, points determine unit selection order.
 
 ```
 Points = Deposit Amount × (Days Held / 365)
 ```
 
 ### Example
-- Deposit: 100,000,000 KRW (1억)
+- Deposit: 100,000 USDT0
 - Duration: 365 days (1 year)
-- Points: 100,000,000 × 1 = **100,000,000 points**
+- Points: 100,000 × 1 = **100,000 points**
 
 Higher points = Earlier unit selection when building is done.
 
