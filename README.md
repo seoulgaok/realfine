@@ -3,6 +3,7 @@
 > 🏠 **Priority over Ownership** - A revolutionary approach to housing access in Seoul
 
 [![Mantle Sepolia](https://img.shields.io/badge/Network-Mantle%20Sepolia-blue)](https://sepolia.mantlescan.xyz)
+[![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
 
 ## Overview
 
@@ -250,6 +251,10 @@ Each Home Credit equals one vote in the DAO:
 ## Team
 
 Built for Mantle Hackathon 2026
+
+## License
+
+Proprietary - All Rights Reserved. See [LICENSE](LICENSE) for details.
 
 ---
 
