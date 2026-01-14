@@ -35,9 +35,29 @@ Seoul has **426 administrative dongs** (neighborhoods). Each dong gets its own d
 
 | Benefit | Description |
 |---------|-------------|
-| 🏦 **DeFi Yield** | 8-12% APY from diversified yield strategies |
+| 🏦 **DeFi Yield** | 6.5% APY from diversified yield strategies |
 | 📈 **Points Boost** | Accelerated points accumulation |
 | 🏠 **Housing Priority** | Priority access to neighborhood housing projects |
+
+### Yield Model: Rent Subsidy from DeFi
+
+```
+100M KRW Home Credit → 500K KRW/month rent subsidy (6% annual return)
+```
+
+**Fund Portfolio Allocation:**
+| Allocation | Strategy | APY |
+|------------|----------|-----|
+| 50% | mETH Staking | 2% |
+| 50% | ETH Delta-Neutral (Funding Fee) | 10.95% |
+| **Blended** | | **6.5%** |
+
+**Capital Flow:**
+- 6.0% → Rent subsidy to residents
+- 0.5% → DAO reserve & operations
+- 35% of TVL → Construction capital (via mETH 70% LTV collateral)
+
+> *"Home Credit is a fixed-income housing bond where 6% interest is paid as rent discount, and principal builds the city through DeFi leverage."*
 
 ## Architecture
 
