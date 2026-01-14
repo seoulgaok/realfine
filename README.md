@@ -1,6 +1,6 @@
 # RealFiNE - The On-chain Housing Vault Protocol
 
-> 🏠 **Priority over Ownership** - A revolutionary approach to housing access in Seoul
+> 🏠 **Deposit Today, Live Tomorrow** - A revolutionary approach to housing access in Seoul
 
 [![Mantle Sepolia](https://img.shields.io/badge/Network-Mantle%20Sepolia-blue)](https://sepolia.mantlescan.xyz)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
