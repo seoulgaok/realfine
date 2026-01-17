@@ -5,6 +5,9 @@
 [![Mantle Sepolia](https://img.shields.io/badge/Network-Mantle%20Sepolia-blue)](https://sepolia.mantlescan.xyz)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](LICENSE)
 
+https://x.com/coinbureau/status/2012051813525307766?s=20
+South Korea has legalized security token offerings, enabling blockchain-based trading of tokenized stocks, real estate, and other real-world assets.
+
 ## Overview
 
 RealFiNE is an on-chain housing vault protocol that tokenizes Seoul's neighborhood-based housing subscription system. Instead of competing in lotteries with uncertain outcomes, users deposit stablecoins into dong-specific vaults, receive rent subsidies from DeFi yields, and gain priority access to housing projects.
